@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <p>This is me</p>
+     <body>
+    <header>
+        <nav>
+            <h1 class="logo">Logo</h1>
+            <ul>
+                <li><a href="learn.html">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+       </nav>
+    </header>
+    <div class="login-box">
+        <div class="filling">
+            <h2>Login</h2>
+            <input type="text" class="text" id="username" placeholder="Enter your name" required><br>
+            <input type="email" class="text"id="email" placeholder="Enter your email" required><br>
+            <input type="text" class="text" id="password" placeholder="Enter your password" required><br>
+        </div>
+        <div class="remember-forget">
+            <label>
+                <input type="checkbox" class="checkbox"> Show password?
+            </label>
+        </div>
+     
+        <button type="submit" onclick="login()"><a href="learn.html"> login</a></button>
+          <p><a href="#">Forget password</a></p>
+        <p>Dont'n have an account? <a href="#">Register</a></p>
+        <p>orsign up from <i class='bx bxl-facebook'> </i>
+                            <i class='bx bxl-instagram'></i>
+                            <i class='bx bxl-whatsapp'></i></p>
+    <script src="login.js"></script>
+    </div>
 </body>
 </html>
