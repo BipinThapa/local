@@ -34,6 +34,7 @@ nav li{
 nav ul li a{
     text-decoration: none;
     margin-left: 20px;
+    margin-right: 40px;
     color: white;
     position: relative;
 }
